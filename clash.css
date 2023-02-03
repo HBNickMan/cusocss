@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*{
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+:root{
+    --border-radius-size: 14px;
+    --barbarian: #EC9B3B;
+    --archer: #EE5487;
+    --giant: #F6901A;
+    --goblin: #82BB30;
+    --wizard: #4FACFF;
+}
+
+body {
+  background: linear-gradient(to bottom, #8c7a7a 0%, #af877c 65%, #af877c 100%) fixed;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font: 14px/20px "Lato", Arial, sans-serif;
+  color: #9E9E9E;
+  margin-top: 30px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.slide-container {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
+}
+.wrapper {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+img {
+    width: 400px;
+    position: absolute;    
+    top: -65px;
+    left: -70px;
+}
+.slick-prev {
+  left: 100px;
+  z-index: 999;
+}
+.slick-next {
+  right: 100px;
+  z-index: 999;
+}
+
+.clash__card {
+  background: white;
+  width: 300px;
+  display: inline-block;
+  margin: auto;
+  border-radius: var(--border-radius-size);
+  position: relative;
+  text-align: center;
+  box-shadow: -1px 15px 30px -12px black;
+  z-index: 9999;
+}
+.clash__card__image {
+  position: relative;
+  height: 230px;
+  margin-bottom: 35px;
+  border-top-left-radius: var(--border-radius-size);
+  border-top-right-radius: var(--border-radius-size);
+}
+.clash__card__level {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.clash__card__unit-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.clash__card__unit-description {
+  padding: 20px;
+  margin-bottom: 10px;  
+  text-align: justify;
+}
+.clash__card__unit-stats {
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: var(--border-radius-size);
+  border-bottom-right-radius: var(--border-radius-size);
+}
+.one-third {
+    width: 33%;
+    float: left;
+    padding: 20px 15px;
+    border-right: 1px solid #BD7C2F;
+}
+sup {
+    position: absolute;
+    bottom: 4px; 
+    font-size: 45%;
+    margin-left: 2px;
+}
+.stat {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+}
+.no-border {
+    border-right: none !important;
+}
+
+/* Barbarian */
+.clash__card__image__barbarian {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg');
+}
+.clash__card__level__barbarian {
+  color: var(--barbarian);
+}
+.clash__card__unit-stats__barbarian {
+  background: var(--barbarian);
+}
+
+/* Archer */
+.clash__card__image__archer {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer-bg.jpg');
+}
+.clash__card__level__archer {
+  color: var(--archer);
+}
+.clash__card__unit-stats__archer {
+  background: var(--archer);
+}
+
+/* giant */
+.clash__card__image__giant {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant-bg.jpg');
+}
+.clash__card__level__giant {
+  color: var(--giant);
+}
+.clash__card__unit-stats__giant {
+  background: var(--giant);
+}
+
+/* goblin */
+.clash__card__image__goblin {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin-bg.jpg');
+}
+.clash__card__level__goblin {
+  color: var(--goblin);
+}
+.clash__card__unit-stats__goblin {
+  background: var(--goblin);
+}
+
+/* wizard */
+.clash__card__image__wizard {
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg');
+}
+.clash__card__level__wizard {
+  color: var(--wizard);
+}
+.clash__card__unit-stats__wizard {
+  background: var(--wizard);
+}
+
+
