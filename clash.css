@@ -180,5 +180,11 @@ sup {
     width: 100%;
     height: 100vh;
   }
+  .slick-prev {
+    left: 10px;
+  }
+  .slick-next {
+    right: 10px;
+  }
 }
 
