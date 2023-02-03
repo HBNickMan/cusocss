@@ -33,7 +33,7 @@ body {
 }
 .slide-container {
   margin: auto;
-  width: auto;
+  width: 600px;
   text-align: center;
 }
 .wrapper {
