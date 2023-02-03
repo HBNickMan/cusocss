@@ -180,11 +180,5 @@ sup {
     width: 100%;
     height: 100vh;
   }
-  .slick-prev {
-    display: none;
-  }
-  .slick-next {
-    display: none;
-  }
 }
 
