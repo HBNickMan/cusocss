@@ -32,8 +32,8 @@ body {
 	height: 0;
 }
 .slide-container {
-  margin: 0 auto;
-  width: 600px;
+  margin: auto;
+  width: auto;
   text-align: center;
 }
 .wrapper {
